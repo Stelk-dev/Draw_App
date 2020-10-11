@@ -1,6 +1,6 @@
-# Test_Draw_App
+# Draw_App
 
-A new Flutter project.
+A simple draw app created with flutter
 
 ## Getting Started
 
