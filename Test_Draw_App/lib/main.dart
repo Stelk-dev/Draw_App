@@ -38,7 +38,7 @@ class _BodyAppState extends State<BodyApp> {
       body: notes.length == 0
           ? Center(
               child: Text(
-                'Aggiungi quaderno',
+                'Add Notebook',
                 style: TextStyle(fontSize: 20, color: Colors.white60),
               ),
             )
@@ -68,7 +68,7 @@ class _BodyAppState extends State<BodyApp> {
                                         Navigator.of(context).pop();
                                       },
                                       child: Text(
-                                        'Elimina',
+                                        'Delete',
                                         style: TextStyle(color: Colors.red),
                                       )),
                                   CupertinoDialogAction(
@@ -76,7 +76,7 @@ class _BodyAppState extends State<BodyApp> {
                                         Navigator.of(context).pop();
                                       },
                                       child: Text(
-                                        'Annulla',
+                                        'Go back',
                                         style:
                                             TextStyle(color: Colors.lightBlue),
                                       )),
@@ -131,7 +131,7 @@ class _BodyAppState extends State<BodyApp> {
                     padding: const EdgeInsets.all(11.0),
                     child: Center(
                       child: Text(
-                        'Aggiungi nuovo quaderno',
+                        'Add new notebook',
                         style: TextStyle(
                             fontWeight: FontWeight.normal,
                             color: Colors.white,
@@ -160,7 +160,7 @@ class _BodyAppState extends State<BodyApp> {
                             ),
                             border: OutlineInputBorder(
                                 borderSide: BorderSide(color: Colors.white)),
-                            labelText: 'Nome quaderno',
+                            labelText: 'Name notebook',
                             labelStyle:
                                 TextStyle(color: Colors.grey, fontSize: 16)),
                         onChanged: (value) {
@@ -183,7 +183,7 @@ class _BodyAppState extends State<BodyApp> {
                     onPressed: () {
                       Navigator.of(context).pop();
                     },
-                    child: Text('Annulla'),
+                    child: Text('Go back'),
                     color: Colors.red,
                   ),
                   FlatButton(
@@ -193,13 +193,13 @@ class _BodyAppState extends State<BodyApp> {
                         titleNewNote != null
                             ? titleNewNote = titleNewNote
                             : titleNewNote =
-                                'Nuovo quaderno ' + (index + 1).toString();
+                                'New Notebook ' + (index + 1).toString();
                         notes.add([titleNewNote, index, optionColors]);
                       });
                       Navigator.of(context).pop();
                     },
                     child: Text(
-                      'Aggiungi',
+                      'Add',
                       style: TextStyle(color: Colors.white),
                     ),
                     color: Colors.lightBlue,

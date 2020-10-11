@@ -101,7 +101,7 @@ class _Page2State extends State<Page2> {
                                             padding: const EdgeInsets.all(8.0),
                                             child: Center(
                                               child: Text(
-                                                'Matita',
+                                                'Pencil',
                                                 style: TextStyle(
                                                     color: Colors.amber),
                                               ),
@@ -124,7 +124,7 @@ class _Page2State extends State<Page2> {
                                                 child: Column(
                                                   children: [
                                                     Text(
-                                                      'Spessore',
+                                                      'Thickness',
                                                       style: TextStyle(
                                                           color: Colors.white,
                                                           fontSize: 18,
@@ -166,7 +166,7 @@ class _Page2State extends State<Page2> {
                                                 child: Column(
                                                   children: [
                                                     Text(
-                                                      'Colore',
+                                                      'Color',
                                                       style: TextStyle(
                                                           color: Colors.white,
                                                           fontSize: 18,
@@ -196,7 +196,7 @@ class _Page2State extends State<Page2> {
                                           padding: const EdgeInsets.all(8.0),
                                           child: Center(
                                             child: Text(
-                                              'Gomma',
+                                              'Rubber',
                                               style: TextStyle(
                                                   color:
                                                       Colors.lightBlueAccent),
@@ -220,7 +220,7 @@ class _Page2State extends State<Page2> {
                                               child: Column(
                                                 children: [
                                                   Text(
-                                                    'Grandezza',
+                                                    'Size',
                                                     style: TextStyle(
                                                         color: Colors.white,
                                                         fontSize: 18,
