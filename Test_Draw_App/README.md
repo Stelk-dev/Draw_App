@@ -2,6 +2,12 @@
 
 A simple draw app created with flutter
 
+# Screen
+<img src="https://github.com/Stelk-dev/Draw_App/blob/main/Test_Draw_App/Screen/1.jpg" width=200>
+<img src="https://github.com/Stelk-dev/Draw_App/blob/main/Test_Draw_App/Screen/2.jpg" width=200>
+<img src="https://github.com/Stelk-dev/Draw_App/blob/main/Test_Draw_App/Screen/3.jpg" width=200>
+<img src="https://github.com/Stelk-dev/Draw_App/blob/main/Test_Draw_App/Screen/4.jpg" width=200>
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
